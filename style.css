@@ -1,16 +1,22 @@
+body{
+	background-color: #bae8ab;
+	font-family: 'sans-serif';
+}
 img{	
 	width: 900px;
 	height: 558px;
-	margin: 0 auto;
+	margin: 0 ;
 
 	border: 2px ridge gray;
 }
 
 .container{
 	overflow: auto;
+	margin: auto;
+
 }
 
 p1
 {	border: 1px dashed gray;
-	box-shadow: 2px 2px 2px blue ;
+	box-shadow: 2px 2px 2px #d85060 ;
 }
