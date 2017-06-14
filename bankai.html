@@ -5,24 +5,69 @@
 		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
 
 		<title>plan des quartiers de St Denis</title>
 	</head>
 	<body>
 	<header> 
-		
-		<div>
-			 <ul>
-	 			<li><a href="entete">Shinigami</a></li>
-	 			<li><a href="about">About</a></li>
-	  			<li><a href="menu">Menu</a></li>
-	  		 </ul> 
-		</div>
+		<div class="container">
+      		<nav class="navbar navbar-default" >
+        		<ul class="nav navbar-nav">
+          				<li><h4>Listes Quartiers par Zone</h4></li>
+          				<li class="dropdown"> 
+            			<a data-toggle="dropdown" href="#">Zone ville<b class="caret"></b></a>
+            				<ul class="dropdown-menu">
+		              		<li><a href="quartier/centre-ville.html">Centre ville</a></li>
+		              		<li><a href="quartier/st-jacques">St Jacques</a></li>
+		              		<li><a href="quartier/la-source.html">La Source</a></li>
+		              		<li><a href="quartier/champ-fleuri.html">Champ Fleuri</a></li>
+		              		<li><a href="quartier/vauban.html">Vauban</a></li>
+							</ul>
+						</li>
+          				<li class="dropdown"> 
+            			<a data-toggle="dropdown" href="#">Zone Est<b class="caret"></b></a>
+            				<ul class="dropdown-menu">
+		              		<li><a href="quartier/camelias.html">Camélias</a></li>
+		              		<li><a href="quartier/ste-clotilde.html">Ste Clotilde</a></li>
+		              		<li><a href="quartier/montgaillard.html">Mongaillard</a></li>
+		              		<li><a href="quartier/le-chaudron.html">Le Chaudron</a></li>
+		              		<li><a href="quartier/moufia.html">Moufia</a></li>
+		              		
+							</ul>
+						</li>
+						<li class="dropdown"> 
+            			<a data-toggle="dropdown" href="#">Zone Ouest<b class="caret"></b></a>
+            				<ul class="dropdown-menu">
+		              		<li><a href="quartier/bas-de-la-riviere.html">Bas de la Rivière</a></li>
+		              		<li><a href="quartier/barachois.html">Barachois</a></li>
+		              		<li><a href="quartier/la-redoute.html">La Redoute</a></li>
+		              		<li><a href="quartier/la-montagne.html">La Montagne</a></li>
+		              		<li><a href="quartier/bellepierre.html">Bellepierre</a></li>
+							
+							</ul>
+						</li>
+						<li class="dropdown"> 
+            			<a data-toggle="dropdown" href="#">Zone Hauteurs<b class="caret"></b></a>
+            				<ul class="dropdown-menu">
+		              		<li><a href="quartier/le-brule.html">Le Brulé</a></li>
+		              		<li><a href="quartier/la-providence.html">La Providence</a></li>
+		              		<li><a href="quartier/st-francois.html">St François</a></li>
+							
+							<li><a href="quartier/bois-de-nefles.html">Bois de Nèfles</a></li>
+							<li><a href="quartier/la-bretagne.html">La Bretagne</a></li>
 
-		
+							
+							</ul>
+						</li>
+						<i class="fa fa-map fa-3x"></i>
+          
+        		</ul>
+     		 </nav>
+   		</div>
 	</header>
-			<p1>voici une carte detaillant les quartiers de st denis.</p1>
+			<h1>Voici une carte detaillant les quartiers de <strong>St Denis</strong>.</h1>
+			<p>Cliquez sur les noms des quartiers pour plus d'infos</p>
 	
 
 
@@ -68,6 +113,7 @@
 			</div>
 			
 			
-		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 		</body>
 </html>
