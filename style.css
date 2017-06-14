@@ -9,10 +9,18 @@ img{
 
 	border: 2px ridge gray;
 }
+li{
+	display: inline;
+	padding: 0 10em;
 
+}
+
+}
+
+}
 .container{
 	overflow: auto;
-	margin: auto;
+	margin: auto; 
 
 }
 
