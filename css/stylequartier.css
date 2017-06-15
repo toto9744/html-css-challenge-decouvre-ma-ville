@@ -1,5 +1,6 @@
 body{ background-color: #bae8ab;
-
+      margin: 0 auto;
+      cursor: ;
 
 }
 h1{text-align: center;
@@ -7,7 +8,13 @@ h1{text-align: center;
 background-color: grey;
 height: 80px;
  padding: 0px;
- margin: 0px;}
+ margin: 0px;
+  font-family: Helvetica;
+  font-weight: bold;
+  text-decoration :underline;
+  border-style: double;
+  box-shadow: 6px 5px 4px  #bae8ab;
+}
 
  nav{padding-bottom: 0px;
  	margin: 0px;}
@@ -39,7 +46,7 @@ height: 80px;
  	margin-top: 10px;
   } 
   p{ margin-top: 15px;
-  text-decoration-color: blue;
+  color:#bae8ab;
   }
   
 
