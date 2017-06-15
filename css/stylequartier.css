@@ -1,9 +1,13 @@
-body{ background-color: #bae8ab;
+body{ background-image: url(../image/bgimg.jpg);
       margin: 0 auto;
       cursor: ;
+      
 
 }
-h1{text-align: center;
+
+h1
+{font-family: "Fenix", serif;
+text-align: center;
 	color: white;
 background-color: grey;
 height: 80px;
@@ -13,11 +17,17 @@ height: 80px;
   font-weight: bold;
   text-decoration :underline;
   border-style: double;
-  box-shadow: 6px 5px 4px  #bae8ab;
-}
+  word-wrap: break-word;
+     -webkit-hyphens: auto;
+     -moz-hyphens: auto;
+     -ms-hyphens: auto;
+     -o-hyphens: auto;
+     hyphens: auto;
+
+  }
 
  nav{padding-bottom: 0px;
- 	margin: 0px;}
+ 	margin: 0px; }
 	
 
 /* make sidebar nav vertical */ 
@@ -46,24 +56,15 @@ height: 80px;
  	margin-top: 10px;
   } 
   p{ margin-top: 15px;
-  color:#bae8ab;
+  color:white;
   }
-  
-.videoWrapper {
-  /*position: relative;
-  padding-bottom: 50%; /* 16:9 
-  padding-top: 0px;
-  height: 0; */ 
-}
-.videoWrapper iframe {
-  position: absolute;
-   
-  bottom: 500%;
-  left: 150px;
-  width: 50%;
-  height: 50%;
+ 
+ img{ 
+  height: 300px; 
+  width: 500px;
 
-}
+ } 
+
 
 
 iframe{
@@ -71,9 +72,32 @@ iframe{
   margin-top: 50px;
 
 
+<<<<<<< HEAD
 }
 img{
   height: 300px;
   width: 500px;
   margin: 0;
 }
+=======
+<<<<<<< HEAD
+}
+
+img{ height: 300px;
+      width: 500px; 
+      margin: 0;
+      }
+
+||||||| merged common ancestors
+}
+=======
+}
+
+video{
+  
+  right: 150px; 
+  margin-top: 50px;
+
+}
+>>>>>>> e781846c67151ef2bff003673d875b3cf730375b
+>>>>>>> eacb0e405b03dc76602481b01bed0602609e9ad1
