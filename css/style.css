@@ -1,5 +1,5 @@
 body{
-	background-color: #bae8ab;
+	background-image: url(../image/bgimg.jpg);
 	font-family: Helvetica;
 }
 img{	
@@ -25,9 +25,7 @@ img{
 }
 
 h1{	text-align: center;
-
-	border: 1px dashed gray;
-	box-shadow: 5px 5px 5px  #d85060 ;
+;
 }
 h4{ width: 210px;
 	background-color: gray;
@@ -36,3 +34,6 @@ h4{ width: 210px;
 i{
 	margin-left: 15px;
 }
+p{font-weight: bold;
+  font-size: 20px;
+  font-family: sans-serif;}
