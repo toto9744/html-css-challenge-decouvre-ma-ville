@@ -74,6 +74,14 @@ iframe{
 
 <<<<<<< HEAD
 }
+img{
+  height: 300px;
+  width: 500px;
+  margin: 0;
+}
+=======
+<<<<<<< HEAD
+}
 
 img{ height: 300px;
       width: 500px; 
@@ -92,3 +100,4 @@ video{
 
 }
 >>>>>>> e781846c67151ef2bff003673d875b3cf730375b
+>>>>>>> eacb0e405b03dc76602481b01bed0602609e9ad1
