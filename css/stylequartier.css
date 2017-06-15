@@ -58,22 +58,13 @@ height: 80px;
   p{ margin-top: 15px;
   color:white;
   }
-  
-.videoWrapper {
-  /*position: relative;
-  padding-bottom: 50%; /* 16:9 
-  padding-top: 0px;
-  height: 0; */ 
-}
-.videoWrapper iframe {
-  position: absolute;
-   
-  bottom: 500%;
-  left: 150px;
-  width: 50%;
-  height: 50%;
+ 
+ img{ 
+  height: 300px; 
+  width: 500px;
 
-}
+ } 
+
 
 
 iframe{
@@ -81,6 +72,7 @@ iframe{
   margin-top: 50px;
 
 
+<<<<<<< HEAD
 }
 
 img{ height: 300px;
@@ -88,3 +80,15 @@ img{ height: 300px;
       margin: 0;
       }
 
+||||||| merged common ancestors
+}
+=======
+}
+
+video{
+  
+  right: 150px; 
+  margin-top: 50px;
+
+}
+>>>>>>> e781846c67151ef2bff003673d875b3cf730375b
